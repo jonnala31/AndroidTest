@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+       android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="107dp"
+         android:visibility="gone"
+        
+        android:text="click one,two,three"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="50dp" />
+
+   <TextView
+       android:id="@+id/textView4p"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:layout_centerVertical="true"
+       android:layout_marginRight="170dp"
+ android:visibility="gone"
+       android:text="Pulp"
+       
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:textColor="#000000"
+       android:textSize="50dp" />
+  <ImageView
+    android:id="@+id/imageView4"
+    android:layout_width="200dp"
+    android:layout_height="150dp"
+    
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="38dp"
+    android:layout_marginBottom="0dp"
+    android:src="@drawable/downlogo" />
+
+   <TextView
+       android:id="@+id/textView3e"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignTop="@+id/imageView4"
+       android:layout_marginRight="9dp"
+       android:layout_marginTop="57dp"
+       android:layout_toLeftOf="@+id/imageView4"
+       android:text="Enamel"
+
+         android:visibility="gone"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:textColor="#000000"
+       android:textSize="40dp" />
+
+   <TextView
+       android:id="@+id/textView2d"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true"
+    android:visibility="gone"
+       android:text="Dentin"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:textColor="#000000"
+       android:textSize="50dp" />
+
+   <TextView
+       android:id="@+id/textView5c"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_centerVertical="true"
+       android:layout_marginLeft="170dp"
+       android:text="  Cementum"
+        android:visibility="gone"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:textColor="#000000"
+       android:textSize="50dp" />
+
+</RelativeLayout>

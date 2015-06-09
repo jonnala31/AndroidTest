@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgl"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/group1"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_selector"
+        android:layout_marginLeft="400dp"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:text="Next"
+        android:textColor="#ffffff" />
+
+    <RadioGroup
+        android:id="@+id/group1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="81dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="fill_parent"
+            android:layout_height="108dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/answer1"
+            android:layout_marginLeft="400dp"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/answer2"
+            android:layout_marginLeft="400dp"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/answer3"
+            android:layout_marginLeft="400dp"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/answer4"
+            android:layout_marginLeft="400dp"
+            android:checked="false" />
+
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  
+    android:orientation="vertical"
+    android:background="@drawable/bgl1" >
+
+    <TextView
+        android:id="@+id/exitBtn"
+      android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="162dp"
+        android:layout_marginTop="100dp"
+        android:textSize="50dp"
+      android:visibility="gone"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Exit"
+
+      
+       />
+
+    <TextView
+        android:id="@+id/playBtn"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+          android:layout_marginTop="100dp"
+        android:layout_marginLeft="162dp"
+        android:visibility="gone"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+       android:textSize="50dp"
+        android:text="Play"
+      
+        />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_marginLeft="79dp"
+        android:text="SoundButton"
+        android:textOn="SOUND ON"
+         android:textOff="SOUND OFF"
+        
+         />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="39dp"
+        android:layout_marginRight="58dp"
+        android:src="@drawable/downlogo" />
+    
+</RelativeLayout>

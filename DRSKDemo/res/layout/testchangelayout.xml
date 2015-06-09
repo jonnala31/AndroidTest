@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="15dip"
+        android:paddingTop="15dip" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/logodrsk" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <RadioGroup
+            android:id="@+id/group1"
+            android:layout_width="fill_parent"
+            android:layout_height="209dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.69"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/answer1"
+                android:checked="false" />
+
+            <RadioButton
+                android:id="@+id/answer2"
+                android:checked="false" />
+
+            <RadioButton
+                android:id="@+id/answer3"
+                android:checked="false" />
+
+            <RadioButton
+                android:id="@+id/answer4"
+                android:checked="false" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_selector"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="Next"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+
+</LinearLayout>

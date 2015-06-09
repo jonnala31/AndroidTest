@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+       android:background="@drawable/bgl">
+<ImageButton
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+       
+        android:layout_marginLeft="550dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/third"
+        android:onClick="three"
+        android:text="three" />
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="420dp"
+        android:layout_marginTop="310dp"
+      
+        android:background="@drawable/first"
+        android:onClick="one"
+        android:text="one" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginLeft="550dp"
+        android:layout_marginTop="190dp"
+        
+        android:background="@drawable/second"
+        android:onClick="two"
+        android:text="two" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+         android:layout_marginTop="310dp"
+        android:layout_marginLeft="750dp"
+       
+        android:onClick="four"
+        android:src="@drawable/four" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="107dp"
+        android:text="click one,two,three"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="50dp" />
+    
+        <ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="100dp"
+    android:layout_height="65dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="30dp"
+    android:src="@drawable/downlogo" />
+
+</RelativeLayout>

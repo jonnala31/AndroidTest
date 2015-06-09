@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/bg"
+    android:gravity="fill_horizontal" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="129dp"
+        android:text="Sound"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="50dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_marginRight="132dp"
+        android:text="mute"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="50dp"
+        android:onClick="soundb" />
+
+    		<Button
+    		    android:id="@+id/button1"
+    		    android:layout_width="80dip"
+    		    android:layout_height="wrap_content"
+    		    android:layout_alignBaseline="@+id/checkBox1"
+    		    android:layout_alignBottom="@+id/checkBox1"
+    		    android:layout_centerHorizontal="true"
+    		    android:background="@drawable/button_selector"
+    		    android:onClick="soundControl"
+    		    android:paddingBottom="5dip"
+    		    android:paddingTop="5dip"
+    		    android:text="update"
+    		    android:textColor="#ffffff"
+    		    android:visibility="invisible" />
+
+</RelativeLayout>
